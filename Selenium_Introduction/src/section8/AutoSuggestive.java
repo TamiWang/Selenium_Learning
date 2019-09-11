@@ -16,7 +16,9 @@ public class AutoSuggestive {
 		source.clear();
 		source.sendKeys("MUM");
 		Thread.sleep(2000);
-		// arrow down
+		
+		// hidden text
+		// key down (arrow down) to move to the expected option
 		source.sendKeys(Keys.ARROW_DOWN);
 		// click enter
 		source.sendKeys(Keys.ENTER);
@@ -31,11 +33,6 @@ public class AutoSuggestive {
 		}
 		// click enter
 		destination.sendKeys(Keys.ENTER);
-		
-		
-		
-		
-		
 		
 	}
 
