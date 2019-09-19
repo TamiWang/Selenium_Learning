@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <listeners>
+    <listener class-name="section17.Listeners"/>
+  </listeners>
+  
+  <test name="Linsteners Test">
+  <!--     
+  <parameter name="Test2-URL" value="Test2-google.com"/>  
+  -->
+
+    <classes>
+      <class name="section17.TestNGdemo3"/>
+    </classes>
+  </test> 
+  
+</suite> 
