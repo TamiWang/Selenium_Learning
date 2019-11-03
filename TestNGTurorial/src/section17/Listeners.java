@@ -24,6 +24,8 @@ public class Listeners implements ITestListener{
 	@Override
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
+		// screenshot code
+		// response if API is failed
 		System.out.println("failed test case" + result.getName());
 	}
 
