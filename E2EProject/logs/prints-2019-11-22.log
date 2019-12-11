@@ -1,0 +1,7 @@
+15:35:54.608 [main] INFO  Academy.ValidTitle - Successfully validated Text message
+15:36:05.668 [main] INFO  Academy.ValidTitle - Restricted User
+15:36:14.537 [main] INFO  Academy.ValidTitle - Non Restricted User
+15:55:04.757 [main] INFO  Academy.ValidTitle - Navigated bar displayed
+15:55:05.784 [main] INFO  Academy.ValidTitle - Driver is initialized
+15:55:09.565 [main] INFO  Academy.ValidTitle - Navigated to Home page
+15:55:09.612 [main] INFO  Academy.ValidTitle - Successfully validated Text message
