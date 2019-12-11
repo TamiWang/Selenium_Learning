@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29007" started-at="2019-12-11T06:06:22Z" finished-at="2019-12-11T06:06:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29007" started-at="2019-12-11T06:06:22Z" finished-at="2019-12-11T06:06:51Z">
+      <class name="academy.QuestionnaireTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:academy.QuestionnaireTest@9629756]" name="initialize" is-config="true" duration-ms="3987" started-at="2019-12-11T17:06:22Z" finished-at="2019-12-11T17:06:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="submitQuestionnaire()[pri:0, instance:academy.QuestionnaireTest@9629756]" name="submitQuestionnaire" duration-ms="25002" started-at="2019-12-11T17:06:26Z" finished-at="2019-12-11T17:06:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitQuestionnaire -->
+      </class> <!-- academy.QuestionnaireTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
