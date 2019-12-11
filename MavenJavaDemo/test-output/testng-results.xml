@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="77" started-at="2019-11-11T12:41:44 AEDT" finished-at="2019-11-11T12:41:44 AEDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="77" started-at="2019-11-11T12:41:44 AEDT" finished-at="2019-11-11T12:41:44 AEDT">
+      <class name="com.SeleniumLearing.app.RESTAPITest">
+        <test-method status="PASS" signature="DeleteTwitter()[pri:0, instance:com.SeleniumLearing.app.RESTAPITest@1e6d1014]" name="DeleteTwitter" duration-ms="2" started-at="2019-11-11T12:41:44 AEDT" finished-at="2019-11-11T12:41:44 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteTwitter -->
+      </class> <!-- com.SeleniumLearing.app.RESTAPITest -->
+      <class name="com.SeleniumLearing.app.SeleniumTest">
+        <test-method status="PASS" signature="SeleniumLogin()[pri:0, instance:com.SeleniumLearing.app.SeleniumTest@4f063c0a]" name="SeleniumLogin" duration-ms="14" started-at="2019-11-11T12:41:44 AEDT" finished-at="2019-11-11T12:41:44 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeleniumLogin -->
+      </class> <!-- com.SeleniumLearing.app.SeleniumTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
