@@ -1,5 +1,6 @@
 package academy;
 
+import org.testng.annotations.Test;
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -9,7 +10,9 @@ import java.util.Date;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-import academy.base;
+import resources.HomePage;
+import resources.Questionnaire;
+import resources.base;
 
 public class FirmwareUpdateTest extends base{
 	
@@ -34,7 +37,7 @@ public class FirmwareUpdateTest extends base{
 		Thread.sleep(3000);
 		qs.questionnaireFWUpdate().click();
 		// Unselect Add/edit network declarations option
-		//qs.questionnaireUnclick().click();
+		qs.questionnaireUnclick().click();
 		// Fill in firmware version - from data.properties
 		qs.questionnaireFWVersion().sendKeys(prop.getProperty("fwVersion"));
 

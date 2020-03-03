@@ -1,14 +1,15 @@
 package academy;
 
+import org.testng.annotations.Test;
 import java.io.IOException;
 
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import org.apache.commons.configuration2.PropertiesConfigurationLayout;
-import org.openqa.selenium.By;
-
 import pageObject.QuestionnairePage;
+import resources.HomePage;
+import resources.Questionnaire;
+import resources.base;
 
 
 public class QuestionnaireTest extends base{

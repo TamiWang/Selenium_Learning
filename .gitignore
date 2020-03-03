@@ -9,4 +9,6 @@ TestNGTurorial/.classpath
 LIFX_Demo/bin
 LIFX_Demo/test-output/
 LIFX_Demo/.classpath
-
+*/test-output/*
+MFiPortalTest/test-output/
+E2EProject/test-output/
